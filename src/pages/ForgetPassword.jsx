@@ -16,7 +16,7 @@ function ForgotPasswordPage() {
         e.preventDefault();
         setStatusMessage('Sending OTP...');
         try {
-            const serverURL = "http://localhost:5000"; // https://${IP}
+            const serverURL = "https://property-frontend-xi.vercel.app/"; // https://${IP}
             
             const response = await fetch(`${serverURL}/admin-forgot-password`, {
                 method: "POST",
@@ -41,7 +41,7 @@ function ForgotPasswordPage() {
     const handleResetPassword = async (e) => {
         e.preventDefault();
         try {
-            const serverURL = "http://localhost:5000"; // https://${IP}
+            const serverURL = "https://property-frontend-xi.vercel.app/"; // https://${IP}
             const response = await fetch(`${serverURL}/admin-reset-password`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
