@@ -8,7 +8,7 @@ function ForgotPasswordPage() {
     const [newPassword, setNewPassword] = useState('');
     const [statusMessage, setStatusMessage] = useState('');
 
-    const IP = "property-backend-of4t.onrender.com";
+    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://property-backend-of4t.onrender.com";
     const navigate = useNavigate();
 
     // STEP 1: Phone number bhej kar OTP mangwane ke liye
@@ -16,9 +16,7 @@ function ForgotPasswordPage() {
         e.preventDefault();
         setStatusMessage('Sending OTP...');
         try {
-            const serverURL = "https://property-frontend-xi.vercel.app/"; // https://${IP}
-            
-            const response = await fetch(`${serverURL}/admin-forgot-password`, {
+            const response = await fetch(`${API_BASE_URL}/admin-forgot-password`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ username: phone }) // Backend me username ke naam se phone number jayega
@@ -41,8 +39,7 @@ function ForgotPasswordPage() {
     const handleResetPassword = async (e) => {
         e.preventDefault();
         try {
-            const serverURL = "https://property-frontend-xi.vercel.app/"; // https://${IP}
-            const response = await fetch(`${serverURL}/admin-reset-password`, {
+            const response = await fetch(`${API_BASE_URL}/admin-reset-password`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ otp, newPassword, username: phone })
@@ -104,7 +101,7 @@ function ForgotPasswordPage() {
                         />
                         <input 
                             type="text" 
-                            placeholder="Enter 4-Digit OTP" 
+                            placeholder="Enter 6-Digit OTP" 
                             value={otp} 
                             required 
                             onChange={(e) => setOtp(e.target.value)}
