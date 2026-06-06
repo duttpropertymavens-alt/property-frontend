@@ -8,7 +8,7 @@ function Navbar (){
         <nav className="nav">
           <Link to="/" className="logo">
             <FaHome className="icon"/>
-            Real <span id="estate">Estate</span> 
+            Dutt <span id="estate">Property Mavens</span> 
             </Link>
             
           <div className="nav-links">
