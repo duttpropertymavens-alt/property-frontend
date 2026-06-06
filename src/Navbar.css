@@ -62,10 +62,10 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   font-family: 'Black Ops One', sans-serif;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 300;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
