@@ -7,7 +7,7 @@
     padding: 10px 30px;
     background: black;
     color: white;
-   font-family: 'Black Ops One', sans-serif;
+  
 }
 #estate{
     color: #d4af37;
@@ -63,7 +63,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Black Ops One', sans-serif;
   font-size: 22px;
   font-weight: 600;
   color: white;
