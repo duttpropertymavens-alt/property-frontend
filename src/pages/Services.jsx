@@ -319,6 +319,192 @@ function Services() {
             design, repair work, and quality finishing.
           </p>
         </div>
+
+        {/* CARD 10 */}
+        <div
+          style={{
+            border: "1px solid orange",
+            padding: "30px",
+            borderRadius: "15px",
+            width: "320px",
+            background: "#1a1a1a",
+            textAlign: "center",
+          }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600"
+            alt=""
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          />
+
+          <h2 style={{ color: "orange" }}>Furniture Design</h2>
+
+          <p style={{ marginTop: "15px", lineHeight: "28px" }}>
+            Custom furniture design for homes, offices, bedrooms, living rooms,
+            and premium interior spaces.
+          </p>
+        </div>
+
+        {/* CARD 11 */}
+        <div
+          style={{
+            border: "1px solid orange",
+            padding: "30px",
+            borderRadius: "15px",
+            width: "320px",
+            background: "#1a1a1a",
+            textAlign: "center",
+          }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600"
+            alt=""
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          />
+
+          <h2 style={{ color: "orange" }}>Modular Kitchen Design</h2>
+
+          <p style={{ marginTop: "15px", lineHeight: "28px" }}>
+            Stylish modular kitchen planning with smart storage, premium
+            fittings, and modern finishing.
+          </p>
+        </div>
+
+        {/* CARD 12 */}
+        <div
+          style={{
+            border: "1px solid orange",
+            padding: "30px",
+            borderRadius: "15px",
+            width: "320px",
+            background: "#1a1a1a",
+            textAlign: "center",
+          }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1558002038-1055907df827?w=600"
+            alt=""
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          />
+
+          <h2 style={{ color: "orange" }}>Smart Home Solution</h2>
+
+          <p style={{ marginTop: "15px", lineHeight: "28px" }}>
+            Smart lighting, CCTV, security systems, automation, and modern
+            technology solutions for homes.
+          </p>
+        </div>
+
+        {/* CARD 13 */}
+        <div
+          style={{
+            border: "1px solid orange",
+            padding: "30px",
+            borderRadius: "15px",
+            width: "320px",
+            background: "#1a1a1a",
+            textAlign: "center",
+          }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600"
+            alt=""
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          />
+
+          <h2 style={{ color: "orange" }}>Material Welding Design</h2>
+
+          <p style={{ marginTop: "15px", lineHeight: "28px" }}>
+            Welding and metal design work for gates, railings, frames,
+            structures, and custom fabrication.
+          </p>
+        </div>
+
+        {/* CARD 14 */}
+        <div
+          style={{
+            border: "1px solid orange",
+            padding: "30px",
+            borderRadius: "15px",
+            width: "320px",
+            background: "#1a1a1a",
+            textAlign: "center",
+          }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600"
+            alt=""
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          />
+
+          <h2 style={{ color: "orange" }}>Painting Service</h2>
+
+          <p style={{ marginTop: "15px", lineHeight: "28px" }}>
+            Interior and exterior painting, wall texture, polish work, and
+            premium finishing for every space.
+          </p>
+        </div>
+
+        {/* CARD 15 */}
+        <div
+          style={{
+            border: "1px solid orange",
+            padding: "30px",
+            borderRadius: "15px",
+            width: "320px",
+            background: "#1a1a1a",
+            textAlign: "center",
+          }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600"
+            alt=""
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          />
+
+          <h2 style={{ color: "orange" }}>Land Ventures Service</h2>
+
+          <p style={{ marginTop: "15px", lineHeight: "28px" }}>
+            Land dealing, plotting, investment guidance, site visits, and
+            trusted support for land ventures.
+          </p>
+        </div>
       </div>
     </div>
   );
