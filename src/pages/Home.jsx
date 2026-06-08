@@ -142,43 +142,61 @@ useEffect(() => {
   <div className="services-grid">
 
     <div className="service-card">
-      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop" />
+      <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1200&auto=format&fit=crop" />
 
-      <h3>Architectural Design</h3>
+      <h3>Buying / Selling / Renting Pro</h3>
 
       <p>
-        Modern and luxury architectural designs for dream homes.
+        Trusted support for buying, selling, and renting properties with clear
+        guidance.
       </p>
 
-      <Link to="/architecture">
+      <Link to="/properties">
   <button>Read More</button>
 </Link>
     </div>
 
     <div className="service-card">
-      <img src="https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop" />
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop" />
 
-      <h3>Smart Home Solutions</h3>
+      <h3>Construction Service</h3>
 
       <p>
-        Advanced automation and smart living solutions.
+        Complete construction planning, site work, renovation, and finishing
+        services.
       </p>
 
-      <Link to="/smarthome">
+      <Link to="/services">
       <button>Read More</button>
       </Link>
     </div>
 
     <div className="service-card">
-      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" />
+      <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop" />
 
-      <h3>Interior Design</h3>
+      <h3>Land Ventures Service</h3>
 
       <p>
-        Premium interior solutions for luxury spaces.
+        Land dealing, plotting, investment guidance, site visits, and trusted
+        support.
       </p>
 
-      <Link to="/interior">
+      <Link to="/services">
+  <button>Read More</button>
+</Link>
+    </div>
+
+    <div className="service-card">
+      <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1200&auto=format&fit=crop" />
+
+      <h3>Documentation Verification</h3>
+
+      <p>
+        Property papers, ownership records, and deal documents checked with
+        careful guidance.
+      </p>
+
+      <Link to="/contact">
   <button>Read More</button>
 </Link>
     </div>
