@@ -164,6 +164,130 @@ function Services() {
             commercial spaces.
           </p>
         </div>
+
+        {/* CARD 5 */}
+        <div
+          style={{
+            border: "1px solid orange",
+            padding: "30px",
+            borderRadius: "15px",
+            width: "320px",
+            background: "#1a1a1a",
+            textAlign: "center",
+          }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600"
+            alt=""
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          />
+
+          <h2 style={{ color: "orange" }}>Plumbing</h2>
+
+          <p style={{ marginTop: "15px", lineHeight: "28px" }}>
+            Reliable plumbing solutions for homes, offices, kitchens,
+            bathrooms, and complete water fitting work.
+          </p>
+        </div>
+
+        {/* CARD 6 */}
+        <div
+          style={{
+            border: "1px solid orange",
+            padding: "30px",
+            borderRadius: "15px",
+            width: "320px",
+            background: "#1a1a1a",
+            textAlign: "center",
+          }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600"
+            alt=""
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          />
+
+          <h2 style={{ color: "orange" }}>Electrician</h2>
+
+          <p style={{ marginTop: "15px", lineHeight: "28px" }}>
+            Safe electrical wiring, fittings, lighting setup, repair work, and
+            power solutions by skilled electricians.
+          </p>
+        </div>
+
+        {/* CARD 7 */}
+        <div
+          style={{
+            border: "1px solid orange",
+            padding: "30px",
+            borderRadius: "15px",
+            width: "320px",
+            background: "#1a1a1a",
+            textAlign: "center",
+          }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=600"
+            alt=""
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          />
+
+          <h2 style={{ color: "orange" }}>Flooring</h2>
+
+          <p style={{ marginTop: "15px", lineHeight: "28px" }}>
+            Premium tiles, marble, wooden flooring, and modern floor finishing
+            for residential and commercial spaces.
+          </p>
+        </div>
+
+        {/* CARD 8 */}
+        <div
+          style={{
+            border: "1px solid orange",
+            padding: "30px",
+            borderRadius: "15px",
+            width: "320px",
+            background: "#1a1a1a",
+            textAlign: "center",
+          }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600"
+            alt=""
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          />
+
+          <h2 style={{ color: "orange" }}>Material Supply</h2>
+
+          <p style={{ marginTop: "15px", lineHeight: "28px" }}>
+            Quality construction material supply including cement, steel,
+            bricks, tiles, and finishing materials.
+          </p>
+        </div>
       </div>
     </div>
   );
