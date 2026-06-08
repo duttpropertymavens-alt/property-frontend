@@ -288,6 +288,37 @@ function Services() {
             bricks, tiles, and finishing materials.
           </p>
         </div>
+
+        {/* CARD 9 */}
+        <div
+          style={{
+            border: "1px solid orange",
+            padding: "30px",
+            borderRadius: "15px",
+            width: "320px",
+            background: "#1a1a1a",
+            textAlign: "center",
+          }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600"
+            alt=""
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          />
+
+          <h2 style={{ color: "orange" }}>Renovation</h2>
+
+          <p style={{ marginTop: "15px", lineHeight: "28px" }}>
+            Complete home, office, and shop renovation services with modern
+            design, repair work, and quality finishing.
+          </p>
+        </div>
       </div>
     </div>
   );
