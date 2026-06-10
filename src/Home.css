@@ -124,10 +124,10 @@ width: 50%;
   display: flex;
 }
 .dream{
-  color: #f5a623;
+  color: #d8b13f;
 }
 .hero-home{
-  color: #f5a623;
+  color: #d8b13f;
 }
 .services{
   background: #f7f6f3;
@@ -141,7 +141,7 @@ width: 50%;
 }
 
 .services-heading p{
-  color: #ffb347;
+ color: #d8b13f;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
@@ -152,7 +152,7 @@ width: 50%;
 }
 
 .services-heading span{
-  color: #ffb347;
+  color: #d8b13f;
 }
 
 .services-heading h5{
@@ -180,7 +180,7 @@ width: 50%;
 
 .service-card:hover{
   transform: translateY(-10px);
-  border-color: #ffb347;
+  border-color: #d8b13f;
 }
 
 .service-card img{
@@ -221,7 +221,7 @@ width: 50%;
 }
 
 .properties-heading p{
-  color: #d4af37;
+ color: #d8b13f;
   font-weight: 600;
   letter-spacing: 2px;
 }
@@ -233,7 +233,7 @@ width: 50%;
 }
 
 .properties-heading span{
-  color: #d4af37;
+ color: #d8b13f;
 }
 
 .properties-grid{
@@ -252,7 +252,7 @@ background: #f7f6f3;
 
 .property-card:hover{
   transform: translateY(-10px);
-  border-color: #d4af37;
+  border-color: #d8b13f;
 }
 
 .property-card img{
@@ -277,7 +277,7 @@ background: #f7f6f3;
 }
 
 .property-content h4{
-  color: #d4af37;
+  color: #d8b13f;
   margin-bottom: 20px;
 }
 
@@ -316,7 +316,7 @@ background: #f7f6f3;
 }
 
 .about-tag{
-  color: #d4af37;
+  color: #d8b13f;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -327,7 +327,7 @@ background: #f7f6f3;
 }
 
 .about-right h2 span{
-  color: #d4af37;
+  color: #d8b13f;
 }
 
 .about-text{
@@ -351,7 +351,7 @@ background: #f7f6f3;
 }
 
 .about-box h3{
-  color: #d4af37;
+ color: #d8b13f;
   font-size: 28px;
 }
 
@@ -380,7 +380,7 @@ background: #f7f6f3;
 }
 
 .choose-tag{
-  color: #d4af37;
+  color: #d8b13f;
   font-weight: 600;
   margin-bottom: 10px;
  margin-left: -220px;
@@ -397,7 +397,7 @@ background: #f7f6f3;
 }
 
 .choose h2 span{
-  color: #d4af37;
+  color: #d8b13f;
 }
 
 .choose-container{
@@ -429,7 +429,7 @@ background: #f7f6f3;
 }
 
 .choose-card h3{
-  color: #d4af37;
+  color: #d8b13f;
 
   margin-bottom: 15px;
 
@@ -453,7 +453,7 @@ background: #f7f6f3;
 
 .contact-tag{
   text-align: center;
-  color: #d4af37;
+ color: #d8b13f;
   font-weight: 600;
   margin-bottom: 10px;
   margin-left: -220px;
@@ -467,7 +467,7 @@ background: #f7f6f3;
 }
 
 .contact h2 span{
-  color: #d4af37;
+ color: #d8b13f;
 }
 
 .contact-container{
@@ -485,7 +485,7 @@ background: #f7f6f3;
 .contact-info h3{
   font-size: 32px;
   margin-bottom: 20px;
-  color: #d4af37;
+  color: #d8b13f;
 }
 
 .contact-info p{
@@ -552,13 +552,13 @@ background: #f7f6f3;
 }
 
 .footer-box h2 span{
-  color: #d4af37;
+ color: #d8b13f;
 }
 
 .footer-box h3{
   font-size: 25px;
   margin-bottom: 20px;
-  color: #d4af37;
+ color: #d8b13f;
 }
 
 .footer-box p{
@@ -586,7 +586,7 @@ background: #f7f6f3;
 }
 
 .footer-box a:hover{
-  color: orange;
+color: #d8b13f;
   padding-left: 5px;
 }
 .details-btn{
@@ -960,7 +960,7 @@ background: #f7f6f3;
 }
 
 .property-card h2{
-  color: #f5b041;
+ color: #d8b13f;
 }
 
 .property-card button{

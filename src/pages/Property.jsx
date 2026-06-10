@@ -15,8 +15,8 @@ function Property() {
   return (
     <div
       style={{
-        background: "#111",
-        color: "white",
+        background: "#f7f6f3",
+        color: "#142e63",
         minHeight: "100vh",
         padding: "50px",
       }}
@@ -24,7 +24,7 @@ function Property() {
       <h1
         style={{
           fontSize: "50px",
-          color: "orange",
+          color: "#d8b13f",
           marginBottom: "20px",
         }}
       >
@@ -33,7 +33,7 @@ function Property() {
 
       <p
         style={{
-          color: "#ccc",
+          color: "#142e63",
           maxWidth: "800px",
           lineHeight: "30px",
           marginBottom: "50px",
@@ -58,7 +58,7 @@ function Property() {
               key={item._id}
               style={{
                 width: "300px",
-                background: "#1a1a1a",
+                background: "#f7f6f3",
                 border: "1px solid orange",
                 borderRadius: "15px",
                 overflow: "hidden",
@@ -76,10 +76,10 @@ function Property() {
               />
 
               <div style={{ padding: "20px" }}>
-                <h2 style={{ color: "orange", margin: "0 0 10px 0" }}>
+                <h2 style={{ color: "#d8b13f", margin: "0 0 10px 0" }}>
                   {item.title}
                 </h2>
-                <p style={{ margin: "0 0 10px 0", color: "#ccc" }}>
+                <p style={{ margin: "0 0 10px 0", color: "#142e63" }}>
                   {item.location}
                 </p>
                 <h3 style={{ margin: "0 0 15px 0" }}>
@@ -92,8 +92,8 @@ function Property() {
                     alert(`${item.title}\nLocation: ${item.location}\nPrice: ${item.price}`);
                   }}
                   style={{
-                    background: "orange",
-                    color: "black",
+                    background: "#d8b13f",
+                    color: "#142e63",
                     border: "none",
                     padding: "10px 15px",
                     borderRadius: "5px",
@@ -108,7 +108,7 @@ function Property() {
           ))
         ) : (
           // Agar database me abhi koi data load nahi hua ya empty h
-          <p style={{ color: "#aaa" }}>Loading properties or database is empty...</p>
+          <p style={{ color: "#142e63" }}>Loading properties or database is empty...</p>
         )}
       </div>
     </div>

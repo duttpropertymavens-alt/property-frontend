@@ -2,8 +2,8 @@ function Services() {
   return (
     <div
       style={{
-        background: "#111",
-        color: "white",
+        background: "#f7f6f3",
+        color: "#142e63",
         minHeight: "100vh",
         padding: "60px",
       }}
@@ -12,7 +12,7 @@ function Services() {
         style={{
           fontSize: "50px",
           textAlign: "center",
-          color: "orange",
+          color: "#d8b13f",
           marginBottom: "50px",
         }}
       >
@@ -21,7 +21,7 @@ function Services() {
       <p
   style={{
     textAlign: "center",
-    color: "#ccc",
+   color: "#142e63",
     maxWidth: "900px",
     margin: "0 auto 50px",
     lineHeight: "30px",
@@ -48,7 +48,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+             background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -64,7 +64,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Property Buying</h2>
+          <h2 style={{ color: "#d8b13f" }}>Property Buying</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             We help clients buy luxury villas, apartments, and premium homes
@@ -79,7 +79,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+           background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -95,7 +95,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Property Selling</h2>
+          <h2 style={{ color: "#d8b13f" }}>Property Selling</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Sell your property quickly with trusted real estate consultation
@@ -110,7 +110,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+             background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -126,7 +126,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Home Rent</h2>
+          <h2 style={{ color: "#d8b13f" }}>Home Rent</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Find rental flats, luxury apartments, and comfortable family homes
@@ -141,7 +141,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+             background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -157,7 +157,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Interior Design</h2>
+          <h2 style={{ color: "#d8b13f" }}>Interior Design</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Modern and stylish interior solutions for luxury homes, villas, and
@@ -172,7 +172,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+            background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -188,7 +188,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Plumbing</h2>
+          <h2 style={{ color: "#d8b13f" }}>Plumbing</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Reliable plumbing solutions for homes, offices, kitchens,
@@ -203,7 +203,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+             background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -219,7 +219,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Electrician</h2>
+          <h2 style={{ color: "#d8b13f" }}>Electrician</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Safe electrical wiring, fittings, lighting setup, repair work, and
@@ -234,7 +234,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+            background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -250,7 +250,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Flooring</h2>
+          <h2 style={{ color: "#d8b13f" }}>Flooring</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Premium tiles, marble, wooden flooring, and modern floor finishing
@@ -265,7 +265,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+             background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -281,7 +281,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Material Supply</h2>
+          <h2 style={{ color: "#d8b13f" }}>Material Supply</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Quality construction material supply including cement, steel,
@@ -296,7 +296,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+            background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -312,7 +312,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Renovation</h2>
+          <h2 style={{ color: "#d8b13f" }}>Renovation</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Complete home, office, and shop renovation services with modern
@@ -327,7 +327,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+             background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -343,7 +343,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Furniture Design</h2>
+          <h2 style={{ color: "#d8b13f" }}>Furniture Design</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Custom furniture design for homes, offices, bedrooms, living rooms,
@@ -358,7 +358,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+           background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -374,7 +374,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Modular Kitchen Design</h2>
+          <h2 style={{ color: "#d8b13f" }}>Modular Kitchen Design</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Stylish modular kitchen planning with smart storage, premium
@@ -389,7 +389,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+            background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -405,7 +405,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Smart Home Solution</h2>
+          <h2 style={{ color: "#d8b13f" }}>Smart Home Solution</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Smart lighting, CCTV, security systems, automation, and modern
@@ -420,7 +420,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+            background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -436,7 +436,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Material Welding Design</h2>
+          <h2 style={{ color: "#d8b13f" }}>Material Welding Design</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Welding and metal design work for gates, railings, frames,
@@ -451,7 +451,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+            background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -467,7 +467,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Painting Service</h2>
+          <h2 style={{ color: "#d8b13f" }}>Painting Service</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Interior and exterior painting, wall texture, polish work, and
@@ -482,7 +482,7 @@ function Services() {
             padding: "30px",
             borderRadius: "15px",
             width: "320px",
-            background: "#1a1a1a",
+             background: "#f7f6f3",
             textAlign: "center",
           }}
         >
@@ -498,7 +498,7 @@ function Services() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Land Ventures Service</h2>
+          <h2 style={{ color: "#d8b13f" }}>Land Ventures Service</h2>
 
           <p style={{ marginTop: "15px", lineHeight: "28px" }}>
             Land dealing, plotting, investment guidance, site visits, and

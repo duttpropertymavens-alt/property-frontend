@@ -2,8 +2,8 @@ function Agents() {
   return (
     <div
       style={{
-        background: "#111",
-        color: "white",
+        background: "#f7f6f3",
+        color: "#142e63",
         minHeight: "100vh",
         padding: "60px",
       }}
@@ -11,7 +11,7 @@ function Agents() {
       <h1
         style={{
           fontSize: "50px",
-          color: "orange",
+          color: "#d8b13f",
           textAlign: "center",
           marginBottom: "20px",
         }}
@@ -22,7 +22,7 @@ function Agents() {
       <p
         style={{
           textAlign: "center",
-          color: "#ccc",
+          color: "#142e63",
           maxWidth: "900px",
           margin: "0 auto 60px",
           lineHeight: "30px",
@@ -46,7 +46,7 @@ function Agents() {
         <div
           style={{
             width: "300px",
-            background: "#1a1a1a",
+             background: "#f7f6f3",
             border: "1px solid orange",
             borderRadius: "15px",
             padding: "25px",
@@ -65,13 +65,13 @@ function Agents() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Rahul Sharma</h2>
+          <h2 style={{ color: "#d8b13f" }}>Rahul Sharma</h2>
 
-          <p style={{ color: "#ccc", marginTop: "10px" }}>
+          <p style={{ color: "#142e63", marginTop: "10px" }}>
             Senior Property Dealer
           </p>
 
-          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#aaa" }}>
+          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#142e63" }}>
             Expert in luxury villas and premium residential properties with 8+
             years of experience.
           </p>
@@ -81,7 +81,7 @@ function Agents() {
         <div
           style={{
             width: "300px",
-            background: "#1a1a1a",
+             background: "#f7f6f3",
             border: "1px solid orange",
             borderRadius: "15px",
             padding: "25px",
@@ -100,13 +100,13 @@ function Agents() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Priya Verma</h2>
+          <h2 style={{ color: "#d8b13f" }}>Priya Verma</h2>
 
-          <p style={{ color: "#ccc", marginTop: "10px" }}>
+          <p style={{ color: "#142e63", marginTop: "10px" }}>
             Real Estate Consultant
           </p>
 
-          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#aaa" }}>
+          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#142e63" }}>
             Helping clients find modern apartments and commercial investment
             properties.
           </p>
@@ -116,7 +116,7 @@ function Agents() {
         <div
           style={{
             width: "300px",
-            background: "#1a1a1a",
+             background: "#f7f6f3",
             border: "1px solid orange",
             borderRadius: "15px",
             padding: "25px",
@@ -135,13 +135,13 @@ function Agents() {
             }}
           />
 
-          <h2 style={{ color: "orange" }}>Aman Kapoor</h2>
+          <h2 style={{ color: "#d8b13f"  }}>Aman Kapoor</h2>
 
-          <p style={{ color: "#ccc", marginTop: "10px" }}>
+          <p style={{ color: "#142e63", marginTop: "10px" }}>
             Property Investment Expert
           </p>
 
-          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#aaa" }}>
+          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#142e63" }}>
             Specialised in investment planning and commercial property deals.
           </p>
         </div>

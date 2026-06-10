@@ -2,8 +2,8 @@ function About() {
   return (
     <div
       style={{
-        background: "#111",
-        color: "white",
+        background: "#f7f6f3",
+        color: "#142e63",
         minHeight: "100vh",
         padding: "60px",
       }}
@@ -11,7 +11,7 @@ function About() {
       <h1
         style={{
           fontSize: "50px",
-          color: "orange",
+          color: "#d8b13f",
           textAlign: "center",
           marginBottom: "30px",
         }}
@@ -26,7 +26,7 @@ function About() {
           margin: "0 auto",
           lineHeight: "35px",
           fontSize: "20px",
-          color: "#ccc",
+          color: "#142e63",
         }}
       >
         Welcome to Dutt Property Mavens — your trusted real estate partner in
@@ -49,16 +49,16 @@ function About() {
         <div
           style={{
             width: "300px",
-            background: "#1a1a1a",
+            background: "#f7f6f3",
             padding: "30px",
             borderRadius: "15px",
             border: "1px solid orange",
             textAlign: "center",
           }}
         >
-          <h2 style={{ color: "orange" }}>10+ Years Experience</h2>
+          <h2 style={{ color: "#d8b13f" }}>10+ Years Experience</h2>
 
-          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#ccc" }}>
+          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#142e63" }}>
             We have years of trusted experience in property buying, selling,
             and premium real estate consultation.
           </p>
@@ -68,16 +68,16 @@ function About() {
         <div
           style={{
             width: "300px",
-            background: "#1a1a1a",
+            background: "#f7f6f3",
             padding: "30px",
             borderRadius: "15px",
             border: "1px solid orange",
             textAlign: "center",
           }}
         >
-          <h2 style={{ color: "orange" }}>Luxury Properties</h2>
+          <h2 style={{ color: "#d8b13f" }}>Luxury Properties</h2>
 
-          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#ccc" }}>
+          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#142e63" }}>
             We provide luxury villas, modern apartments, and commercial spaces
             with premium quality and locations.
           </p>
@@ -87,16 +87,16 @@ function About() {
         <div
           style={{
             width: "300px",
-            background: "#1a1a1a",
+            background: "#f7f6f3",
             padding: "30px",
             borderRadius: "15px",
             border: "1px solid orange",
             textAlign: "center",
           }}
         >
-          <h2 style={{ color: "orange" }}>Trusted Support</h2>
+          <h2 style={{ color: "#d8b13f" }}>Trusted Support</h2>
 
-          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#ccc" }}>
+          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#142e63" }}>
             Our team helps clients with honest guidance, secure deals, and
             smooth property transactions.
           </p>
