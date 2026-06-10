@@ -3,8 +3,8 @@ function Contact() {
     <div
       style={{
         minHeight: "100vh",
-        background: "#111",
-        color: "white",
+        background: "#f7f6f3",
+        color: "#142e63",
         padding: "50px",
         textAlign: "center",
       }}
