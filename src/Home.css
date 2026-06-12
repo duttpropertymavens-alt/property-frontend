@@ -74,13 +74,14 @@ width: 50%;
   margin-bottom: 20px;
 }
 .image-box{
-  width: 520px;
-  border-radius: 150px 150px 20px 20px;
+  width: 420px;
+  border-radius: 320px 320px 20px 20px;
   overflow: hidden;
   position: relative;
   /* margin-left: -200px; */
   margin-top: -80px;
   background-color: #f7f6f3;
+  
 }
 .stats{
   position: absolute;
@@ -620,8 +621,8 @@ color: #d8b13f;
   .hero{
     display:flex;
     flex-direction:column;
-    gap:40px;
-    padding:40px 15px;
+    gap:30px;
+    padding:0px 20px;
   }
 
   .hero-left,
@@ -633,7 +634,12 @@ color: #d8b13f;
   .hero-left h1{
     font-size:34px;
     line-height:1.2;
+    margin-top: -65px;
   }
+  .hero-left h3 {
+    margin-top: 15px; 
+    margin-bottom: 10px; 
+}
 
   .hero-left p{
     font-size:15px;
@@ -725,24 +731,32 @@ color: #d8b13f;
     font-size:15px;
     line-height:1.7;
   }
+     .image-box {
+        width: 260px !important; 
+        margin: 0 auto !important; 
+        
+        /* Container ko arch shape de rahe hain */
+        border-radius: 130px 130px 15px 15px !important; 
+        overflow: hidden !important; 
+        
+        /* Faltu space hatane ke liye */
+        padding: 0 !important;
+        background-color: transparent !important;
+        border: none !important;
+    }
 
-  .image-box{
-    width:100%;
-    height: auto !important;
-    max-width:300px;
-    margin:auto;
-    padding-bottom: 30px !important;
-    max-height: none !important;
+    .image-box img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+        border-radius: 0 !important; 
+        
+        /* YEH RAHI MAGIC TRICK 🚀 */
+        /* Image ko dabe ke andar thoda zoom kar dega taki black hissa bahar nikal ke cut jaye */
+        transform: scale(1.15) !important; 
+        transform-origin: center center !important;
+    }
 
-    border-radius:25px;
-    overflow:visible !important;
-  }
-
-  .image-box img{
-    width:100%;
-    height:auto;
-    display:block;
-  }
 
   /* ABOUT BOXES */
 
