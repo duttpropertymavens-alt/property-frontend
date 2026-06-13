@@ -111,7 +111,7 @@ useEffect(() => {
 
           <div className="stat">
           <h3>2k+</h3>
-          <p> Property Diliverd</p>
+          <p> Property Delivered</p>
           </div>
 
         <div className="stat">
