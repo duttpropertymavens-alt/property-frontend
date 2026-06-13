@@ -83,9 +83,11 @@ useEffect(() => {
     View Projects
   </button>
 </Link>
- <h3 className="find-property">Find the Perfect Property</h3>
+<div className="find-property">
+  <h3>Find the Perfect Property</h3>
         <p>Explore premium homes and investment opportunities with expert guidance, trusted services, and the best locations to help you make smart real estate decisions.</p>
 
+</div>
        </div>
          <div className="mini-card">
         <img src={addressImg} alt="Location"/>

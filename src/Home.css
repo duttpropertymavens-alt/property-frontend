@@ -111,7 +111,7 @@ width: 50%;
   border-radius: 20px;
 }
 .find-property{
-  margin-top: 18px;
+  margin-top: 40px;
 }
 
 .mini-card h4{
@@ -454,7 +454,7 @@ background: #f7f6f3;
  background: #f7f6f3;
    color: #142e63;
   padding: 30px 8%;
-  margin-top: -50px;
+  margin-top: -20px;
 }
 
 .contact-tag{
@@ -619,7 +619,9 @@ color: #d8b13f;
   body{
     overflow-x:hidden;
   }
-  
+  .find-property{
+  margin-top: 40px;
+}
 
   /* HERO */
 
@@ -635,6 +637,7 @@ color: #d8b13f;
     width:100%;
     text-align:center;
   }
+
 
   .hero-left h1{
     font-size:34px;
@@ -714,6 +717,9 @@ color: #d8b13f;
     padding:12px;
     font-size:15px;
   }
+  .properties{
+    margin-top: -90px;
+  }
 
   /* ABOUT */
 
@@ -722,6 +728,7 @@ color: #d8b13f;
     flex-direction:column;
     gap:40px;
     padding:40px 15px;
+    margin-top: -60px;
   }
 
   .about-left,
@@ -822,7 +829,7 @@ color: #d8b13f;
   align-items:center !important;
 
   box-sizing:border-box !important;
-  margin-top: 0px !important;
+  margin-top: -30px !important;
 }
 
   .choose-container{
