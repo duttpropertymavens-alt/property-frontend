@@ -70,9 +70,7 @@ useEffect(() => {
       {/* LEFT */}
       <div className="hero-left">
         <h1>Easiest way to get your <span className="dream">dream</span> <span className="hero-home">home</span></h1>
-        <h3>Find the Perfect Property</h3>
-        <p>Explore premium homes and investment opportunities with expert guidance, trusted services, and the best locations to help you make smart real estate decisions.</p>
-
+       <p>Find best properties with us. Buy, sell and invest smartly.</p>
         <div className="hero-buttons">
       <Link to="/contact">
   <button className="btn-primary">
@@ -85,6 +83,9 @@ useEffect(() => {
     View Projects
   </button>
 </Link>
+ <h3>Find the Perfect Property</h3>
+        <p>Explore premium homes and investment opportunities with expert guidance, trusted services, and the best locations to help you make smart real estate decisions.</p>
+
        </div>
          <div className="mini-card">
         <img src={addressImg} alt="Location"/>
