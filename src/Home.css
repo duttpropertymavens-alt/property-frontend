@@ -251,6 +251,7 @@ width: 50%;
 .properties{
   padding: 100px 8%;
   background: #f7f6f3;
+  margin-top: -80px;
 }
 
 .properties-heading{
@@ -342,6 +343,7 @@ background: #f7f6f3;
   gap: 60px;
 
   padding: 40px 20%;
+  margin-top: -80px;
 }
 
 .about-left img{
@@ -415,7 +417,8 @@ background: #f7f6f3;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -80px;
+  margin-top: -120px;
+  padding-left: 500px;
 }
 
 .choose-tag{
@@ -488,7 +491,7 @@ background: #f7f6f3;
  background: #f7f6f3;
    color: #142e63;
   padding: 30px 8%;
-  margin-top: -20px;
+  margin-top: -120px;
 }
 
 .contact-tag{
@@ -572,6 +575,7 @@ background: #f7f6f3;
   background: #f7f6f3;
   color: #142e63;
   padding: 0px 8% 20px;
+  margin-top: -100px;
 }
 
 .footer-container{
