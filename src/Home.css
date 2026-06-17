@@ -83,11 +83,9 @@ width: 50%;
   background-color: #f7f6f3;
   
 }
-.stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Ye zabardasti 3 column banayega */
-    gap: 30px;
-    margin-top: 50px;
+
+.state{
+  padding: 60px;
 }
 
 .stat-card {
@@ -658,7 +656,13 @@ color: #d8b13f;
   .find-property{
   margin-top: 40px;
 }
-
+.state {
+    display: flex;
+    flex-wrap: wrap; /* Isi se cards screen choti hote hi niche gir jayenge */
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
   /* HERO */
 
   .hero{
@@ -976,7 +980,7 @@ color: #d8b13f;
   margin:0 auto 30px auto !important;
 }
 
-.stats{
+/* .stats{
   position:static !important;
   transform:none !important;
 
@@ -987,12 +991,17 @@ color: #d8b13f;
   width:100% !important;
   margin-top:25px !important;
   gap:18px !important;
-}
+} */
 
 .stat{
-  width:90px !important;
+  width:70px !important;
 
   text-align:center !important;
+}
+.stat-card{
+  width: 40%;
+  margin: 0%;
+  padding: 15px;
 }
 
 .stat h3{

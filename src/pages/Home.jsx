@@ -115,7 +115,7 @@ useEffect(() => {
       </div>
       
       </div>
-     <div style={{ display: "flex", flexDirection: "row", gap: "50px", justifyContent: "center", width: "100%" ,background: "#f7f6f3" }}>
+     <div className="state" style={{ display: "flex", flexDirection: "row", gap: "50px", justifyContent: "center", width: "100%" ,background: "#f7f6f3" }}>
   
   <div className="stat-card">
     <div className="stat-icon">
