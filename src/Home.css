@@ -839,6 +839,7 @@ color: #d8b13f;
 
   .services{
     padding:50px 15px;
+    margin-top: -50px;
   }
 
   .services-heading h2{
@@ -966,6 +967,9 @@ color: #d8b13f;
 
 }
 
+.contact{
+  margin-top: -20px;
+}
 
 
 
