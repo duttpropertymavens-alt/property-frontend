@@ -4,6 +4,7 @@ import {FaStar} from "react-icons/fa"
 import addressImg from "../assets/address.jpeg"
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import {FaBuilding, FaUsers } from "react-icons/fa";
 
 function Home() {
   const [properties, setProperties] = useState([]);
@@ -109,27 +110,40 @@ useEffect(() => {
             <li>Panipat's Trusted Property Dealer</li>
             </ul></h2>
         </div>
-        <div className="stats">
-
-          <div className="stat">
-          <h3>2k+</h3>
-          <p> Property Delivered</p>
-          </div>
-
-        <div className="stat">
-          <h3>2k+</h3>
-          <p>Happy Clients</p>
-         </div>
-
-        <div className="stat">
-          <h3>4.5 <FaStar style={{color: "#d4af37"}}/></h3>
-          <p>Star ratings</p>
-        </div>
-
-        </div>
+         {/* Ye raha aapka stats wala section jo sidha right mein jayega */}
+    
       </div>
       
       </div>
+     <div style={{ display: "flex", flexDirection: "row", gap: "50px", justifyContent: "center", width: "100%" ,background: "#f7f6f3" }}>
+  
+  <div className="stat-card">
+    <div className="stat-icon">
+      <FaBuilding />
+    </div>
+    <h3>2k+</h3>
+    <p>Property Delivered</p>
+  </div>
+
+  <div className="stat-card">
+    <div className="stat-icon">
+      <FaUsers />
+    </div>
+    <h3>2k+</h3>
+    <p>Happy Clients</p>
+  </div>
+
+  <div className="stat-card">
+    <div className="stat-icon">
+      <FaStar />
+    </div>
+    <h3>
+      4.5 <FaStar className="rating-star" />
+    </h3>
+    <p>Star Ratings</p>
+  </div>
+
+</div>
       <section className="services">
 
   <div className="services-heading">

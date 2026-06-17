@@ -83,17 +83,53 @@ width: 50%;
   background-color: #f7f6f3;
   
 }
-.stats{
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ye zabardasti 3 column banayega */
+    gap: 30px;
+    margin-top: 50px;
 }
-.stat h3{
-  font-size: 28px;
+
+.stat-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  min-width: 250px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
-.stat p {
-   color: #142e63;
+
+.stat-icon {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #d4af37;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 35px;
+  color: #0b2c6f;
+}
+
+.stat-card h3 {
+  font-size: 55px;
+  color: #0b2c6f;
+  margin: 10px 0;
+}
+
+.stat-card p {
+  font-size: 22px;
+  color: #0b2c6f;
+}
+
+.rating-star {
+  color: #d4af37;
+  font-size: 40px;
+}
+
+.stat-icon svg {
+  color: #d4af37;
 }
 
 
@@ -135,7 +171,7 @@ width: 50%;
 }
 .services{
   background: #f7f6f3;
-  padding: 100px 8%;
+  padding: 50px 4%;
   color: #142e63;
 }
 
