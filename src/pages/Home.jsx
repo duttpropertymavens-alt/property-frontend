@@ -393,11 +393,11 @@ useEffect(() => {
 />
 
       <input
-  type="email"
-  name="email"
-  value={formData.email}
+  type="tel"
+  name="phone"
+  value={formData.phone}
   onChange={handleChange}
-  placeholder="Your Email"
+  placeholder="Your Phone Number"
 />
 
       <textarea
