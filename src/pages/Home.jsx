@@ -13,7 +13,7 @@ function Home() {
 
   const [formData, setFormData] = useState({
   name: "",
-  email: "",
+  phone: "",
   message: "",
 });
 const handleChange = (e) => {
@@ -30,7 +30,7 @@ const handleSubmit = async (e) => {
     const requestData = {
       access_key: "2d284935-1f36-4c1e-be7c-4cfb8beb76bc",
       name: formData.name,
-      email: formData.email,
+      phone: formData.phone,
       message: formData.message
     };
 
@@ -48,7 +48,7 @@ const handleSubmit = async (e) => {
 
       if (result.success || response.status === 200) {
         alert("Message Sent Successfully!");
-        setFormData({ name: "", email: "", message: "" });
+        setFormData({ name: "", phone: "", message: "" });
       } else {
         alert("Failed To Send");
       }
