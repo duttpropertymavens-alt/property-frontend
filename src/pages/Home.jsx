@@ -253,7 +253,7 @@ useEffect(() => {
 </Swiper>
 
         <h2>{item.title}</h2>
-        <p style={{color: "red", fontWeight: "bold"}}>Total Photos: {item.image ? item.image.length : 0}</p>
+        
 
 <p>{item.location}</p>
 
