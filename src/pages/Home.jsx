@@ -238,10 +238,10 @@ useEffect(() => {
 
     {properties.map((item) => (
       <div className="property-card" key={item.id}>
-        <img
-  src={item.image}
-  alt={item.title}
-  className="property-image"
+  <img 
+  src={item.image ? item.image[0] : ""} 
+  alt={item.title} 
+  className="property-image" 
 />
 
         <h2>{item.title}</h2>
