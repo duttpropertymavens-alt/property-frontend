@@ -14,7 +14,7 @@ function Admin() {
         price: '',
         location: '',
         description: '',
-        image: null
+        image: []
     });
 
     // Aapka Network IP
@@ -68,7 +68,11 @@ function Admin() {
         dataToSend.append("price", formData.price);
         dataToSend.append("location", formData.location);
         dataToSend.append("description", formData.description);
-        dataToSend.append("image", formData.image);
+        if (formData.image) {
+  for (let i = 0; i < formData.image.length; i++) {
+    dataToSend.append("image", formData.image[i]);
+  }
+}
 
         try {
             const response = await fetch("https://property-backend-of4t.onrender.com/add-property", {
@@ -194,7 +198,8 @@ function Admin() {
                 />
                 <input 
                     type="file" 
-                    onChange={(e) => setFormData({ ...formData, image: e.target.files[0] })} 
+                    multiple
+                    onChange={(e) => setFormData({ ...formData, image: e.target.files })} 
                     required
                 />
                 <button type="submit">Add Property</button>
