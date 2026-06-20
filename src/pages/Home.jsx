@@ -5,6 +5,10 @@ import addressImg from "../assets/address.jpeg"
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import {FaBuilding, FaUsers } from "react-icons/fa";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { Navigation } from 'swiper/modules';
 
 function Home() {
   const [properties, setProperties] = useState([]);
@@ -238,11 +242,13 @@ useEffect(() => {
 
     {properties.map((item) => (
       <div className="property-card" key={item.id}>
-  <img 
-  src={item.image ? item.image[0] : ""} 
-  alt={item.title} 
-  className="property-image" 
-/>
+<Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+  {item.image && item.image.map((imgUrl, index) => (
+    <SwiperSlide key={index}>
+      <img src={imgUrl} alt={item.title} className="property-image" />
+    </SwiperSlide>
+  ))}
+</Swiper>
 
         <h2>{item.title}</h2>
 
