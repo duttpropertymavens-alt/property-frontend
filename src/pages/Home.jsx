@@ -247,7 +247,12 @@ useEffect(() => {
   {item.image && Array.isArray(item.image) && item.image.map((imgUrl, index) => (
     <SwiperSlide key={index}>
       {/* Fallback image incase URL is broken */}
-      <img src={imgUrl || "path/to/default/image.jpg"} alt={item.title} className="property-image" />
+      <img 
+  src={imgUrl || "path/to/default/image.jpg"} 
+  alt={item.title} 
+  className="property-image" 
+  style={{ width: "100%", height: "250px", objectFit: "contain", backgroundColor: "#f0f0f0" }} 
+/>
     </SwiperSlide>
   ))}
 </Swiper>
