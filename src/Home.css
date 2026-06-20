@@ -10,6 +10,40 @@
  
  
 }
+/* Swiper container ki setting */
+.mySwiper {
+  width: 100%;
+  height: 250px; /* Desktop ke liye height */
+  border-radius: 8px 8px 0 0; /* Card ke upar ke corners gol karne ke liye */
+}
+
+/* Photo stretch na ho aur box mein fit baithe */
+.property-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+/* Swiper ke aage-peeche wale arrows ka design */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px !important; /* Arrows ka size thoda chota kiya hai */
+  color: #fff !important; /* White color */
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.8); /* Background light ho tab bhi arrows saaf dikhenge */
+}
+
+/* Mobile Screens ke liye alag se adjustment (Responsive part) */
+@media screen and (max-width: 768px) {
+  .mySwiper {
+    height: 200px; /* Phone par height thodi kam kar di hai taaki pura card dikhe */
+  }
+  
+  /* Phone par arrows thode chhote kar diye hain taaki photo na chhupe */
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 16px !important; 
+  }
+}
 .hero-img{
     width: 100%;
   height: 680px;

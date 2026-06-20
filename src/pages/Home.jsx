@@ -243,9 +243,11 @@ useEffect(() => {
     {properties.map((item) => (
       <div className="property-card" key={item.id}>
 <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-  {item.image && item.image.map((imgUrl, index) => (
+  {/* Check if image exists AND is an array before mapping */}
+  {item.image && Array.isArray(item.image) && item.image.map((imgUrl, index) => (
     <SwiperSlide key={index}>
-      <img src={imgUrl} alt={item.title} className="property-image" />
+      {/* Fallback image incase URL is broken */}
+      <img src={imgUrl || "path/to/default/image.jpg"} alt={item.title} className="property-image" />
     </SwiperSlide>
   ))}
 </Swiper>
