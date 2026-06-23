@@ -1,4 +1,7 @@
+import ndSharmaImg from './ND sharma.jpeg'
+
 function Agents() {
+
   return (
     <div
       style={{
@@ -54,26 +57,27 @@ function Agents() {
           }}
         >
           <img
-            src="https://randomuser.me/api/portraits/men/32.jpg"
+            src={ndSharmaImg}
             alt=""
-            style={{
-              width: "150px",
-              height: "150px",
-              borderRadius: "50%",
-              objectFit: "cover",
-              marginBottom: "20px",
-            }}
+           style={{
+  width: "160px", /* Thoda sa bada kar diya hai acha dikhne ke liye */
+  height: "160px", /* Circle ke liye width aur height hamesha same honi chahiye */
+  borderRadius: "50%",
+  objectFit: "cover",
+  objectPosition: "top", /* Ye line nayi hai! Ye sar ko frame se baahar nahi jaane degi */
+  marginBottom: "20px",
+  boxShadow: "0 4px 8px rgba(0,0,0,0.1)" /* Halka sa 3D shadow premium look ke liye */
+}}
           />
 
-          <h2 style={{ color: "#d8b13f" }}>Rahul Sharma</h2>
+          <h2 style={{ color: "#d8b13f" }}>Mr. N.D Sharma</h2>
 
           <p style={{ color: "#142e63", marginTop: "10px" }}>
-            Senior Property Dealer
+            Director, Dutt Property Mavens Pvt. Ltd
           </p>
 
           <p style={{ marginTop: "20px", lineHeight: "28px", color: "#142e63" }}>
-            Expert in luxury villas and premium residential properties with 8+
-            years of experience.
+           A proud Veteran of the Indian Air Force turned entrepreneur, Mr. N.D. Sharma brings tactical precision, absolute transparency, and an elite work ethic to the real estate industry. Since incorporating Dutt Property Mavens in October 2018, he has guided the company with a service-first mindset, ensuring that clients navigate the property market with total confidence and security.
           </p>
         </div>
 
