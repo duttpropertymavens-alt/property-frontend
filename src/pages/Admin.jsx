@@ -21,8 +21,7 @@ function Admin() {
     // Aapka Network IP
     const IP = "property-backend-of4t.onrender.com";
 
-    // Aapka Network IP (Purana of4t hata kar lypz daal diya)
-const IP = "property-backend-lypz.onrender.com";
+  
 
 // --- 1. ADMIN LOGIN FUNCTION ---
 const handleLoginSubmit = async (e) => {
