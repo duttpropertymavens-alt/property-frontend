@@ -16,19 +16,26 @@ function Admin() {
         description: '',
         image: []
     });
+    // testing
 
     // Aapka Network IP
     const IP = "property-backend-of4t.onrender.com";
 
-    // --- 1. ADMIN LOGIN FUNCTION ---
-    const handleLoginSubmit = async (e) => {
-        e.preventDefault();
-        try {
-            const response = await fetch(`https://property-backend-lypz.onrender.com`, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(loginData)
-            });
+    // Aapka Network IP (Purana of4t hata kar lypz daal diya)
+const IP = "property-backend-lypz.onrender.com";
+
+// --- 1. ADMIN LOGIN FUNCTION ---
+const handleLoginSubmit = async (e) => {
+    e.preventDefault();
+    try {
+        // Yahan dhyan de: URL ke aage /admin-login wapas lagana zaroori hai!
+        const response = await fetch(`https://property-backend-lypz.onrender.com/admin-login`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            credentials: "include", // <--- Ye CORS ke liye bohot zaroori hai
+            body: JSON.stringify(loginData)
+        });
+           
             const result = await response.json();
 
             if (response.ok && result.success) {
