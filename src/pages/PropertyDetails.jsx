@@ -11,7 +11,7 @@ function PropertyDetails() {
 
   useEffect(() => {
 
-    fetch(`https://property-backend-of4t.onrender.com/property/${id}`)
+    fetch(`https://property-backend-lypz.onrender.com/property/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setProperty(data.property);

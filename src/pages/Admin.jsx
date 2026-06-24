@@ -18,8 +18,8 @@ function Admin() {
     });
     // testing
 
-    // Aapka Network IP
-    const IP = "property-backend-of4t.onrender.com";
+    // Aapka Network IP (NEW - client ka backend)
+    const IP = "property-backend-lypz.onrender.com";
 
   
 
@@ -27,11 +27,9 @@ function Admin() {
 const handleLoginSubmit = async (e) => {
     e.preventDefault();
     try {
-        // Yahan dhyan de: URL ke aage /admin-login wapas lagana zaroori hai!
-        const response = await fetch(`https://property-backend-lypz.onrender.com/admin-login`, {
+        const response = await fetch(`https://${IP}/admin-login`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            credentials: "include", // <--- Ye CORS ke liye bohot zaroori hai
             body: JSON.stringify(loginData)
         });
            
@@ -52,7 +50,7 @@ const handleLoginSubmit = async (e) => {
     // --- 2. AAPKA PROPERTIES FETCH FUNCTION ---
     const fetchProperties = async () => {
         try {
-            const response = await fetch("https://property-backend-of4t.onrender.com/properties");
+            const response = await fetch("https://property-backend-lypz.onrender.com/properties");
             const data = await response.json();
             setProperties(data);
         } catch (err) {
@@ -81,7 +79,7 @@ const handleLoginSubmit = async (e) => {
 }
 
         try {
-            const response = await fetch("https://property-backend-of4t.onrender.com/add-property", {
+            const response = await fetch("https://property-backend-lypz.onrender.com/add-property", {
                 method: "POST",
                 body: dataToSend,
             });
@@ -102,7 +100,7 @@ const handleLoginSubmit = async (e) => {
     const handleDelete = async (id) => {
         if (window.confirm("Are you sure you want to delete this property?")) {
             try {
-                const response = await fetch(`https://property-backend-of4t.onrender.com/delete-property/${id}`,{
+                const response = await fetch(`https://property-backend-lypz.onrender.com/delete-property/${id}`,{
                     method: "DELETE"
                 });
                 if (response.ok) {

@@ -8,7 +8,7 @@ function ForgotPasswordPage() {
     const [newPassword, setNewPassword] = useState('');
     const [statusMessage, setStatusMessage] = useState('');
 
-    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://property-backend-of4t.onrender.com";
+    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://property-backend-lypz.onrender.com";
     const navigate = useNavigate();
 
     // STEP 1: Phone number bhej kar OTP mangwane ke liye

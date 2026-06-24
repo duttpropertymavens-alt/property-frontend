@@ -63,7 +63,7 @@ const handleSubmit = async (e) => {
 
 useEffect(() => {
 
-  fetch("https://property-backend-of4t.onrender.com/properties")
+  fetch("https://property-backend-lypz.onrender.com/properties")
     .then((res) => res.json())
     .then((data) => setProperties(data));
 

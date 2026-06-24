@@ -6,7 +6,7 @@ function Property() {
 
   // 2. useEffect jo Render backend se saara data lekar aayega
   useEffect(() => {
-    fetch("https://property-backend-of4t.onrender.com/properties")
+    fetch("https://property-backend-lypz.onrender.com/properties")
       .then((res) => res.json())
       .then((data) => setProperties(data))
       .catch((err) => console.error("Error fetching properties:", err));
