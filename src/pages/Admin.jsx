@@ -24,7 +24,7 @@ function Admin() {
     const handleLoginSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch(`https://property-backend-of4t.onrender.com/admin-login`, {
+            const response = await fetch(`https://property-backend-lypz.onrender.com`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(loginData)
