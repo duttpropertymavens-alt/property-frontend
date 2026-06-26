@@ -32,7 +32,7 @@ const handleSubmit = async (e) => {
 
     // Koi FormData ka jhanjhat nahi, direct saaf-sutra data
     const requestData = {
-      access_key: "tfp_Hp3Lz6gexLWFGsbQKmnJmyJZL4XWwFPuSh2eXbAKFQFt_3mM4ENEcBJvWQG",
+     access_key: process.env.REACT_APP_TYPEFORM_TOKEN, 
       name: formData.name,
       phone: formData.phone,
       message: formData.message
