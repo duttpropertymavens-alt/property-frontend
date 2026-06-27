@@ -38,15 +38,12 @@ const handleSubmit = async (e) => {
       message: formData.message
     };
 
-    try {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Accept": "application/json"
-        },
-        body: JSON.stringify(requestData)
-      });
+   try {
+  const response = await fetch("https://[TERA_BACKEND_URL]/send-email", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(requestData)
+  });
 
       const result = await response.json();
 
