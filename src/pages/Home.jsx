@@ -30,7 +30,7 @@ const handleChange = (e) => {
 const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Koi FormData ka jhanjhat nahi, direct saaf-sutra data
+    // Koi FormData ka jhanjhat nahi, direct saaf-sutra datas
     const requestData = {
       access_key:REACT_APP_TYPEFORM_TOKEN,
       name: formData.name,
