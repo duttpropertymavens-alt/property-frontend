@@ -26,27 +26,30 @@ const handleChange = (e) => {
       [e.target.name]: e.target.value,
     });
   };
-  //test
 
 const handleSubmit = async (e) => {
     e.preventDefault();
 
+    const requestData = {
+      access_key: "8c9eb81a-2ff2-424b-80d0-2c881ecc3ac1",
+      name: formData.name,
+      phone: formData.phone,
+      message: formData.message
+    };
+
     try {
-      const response = await fetch("https://property-backend-lypz.onrender.com/send-email", {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "Accept": "application/json"
         },
-        body: JSON.stringify({
-          name: formData.name,
-          phone: formData.phone,
-          message: formData.message
-        })
+        body: JSON.stringify(requestData)
       });
 
       const result = await response.json();
 
-      if (response.ok && result.success) {
+      if (result.success || response.status === 200) {
         alert("Message Sent Successfully!");
         setFormData({ name: "", phone: "", message: "" });
       } else {
