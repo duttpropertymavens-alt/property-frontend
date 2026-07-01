@@ -1,4 +1,5 @@
 import ndSharmaImg from './ND sharma.jpeg'
+import tarunDuttImg from './Tarun_dutt.jpeg'
 
 function Agents() {
 
@@ -93,13 +94,14 @@ function Agents() {
           }}
         >
           <img
-            src="https://ui-avatars.com/api/?name=Tarun+Dutt&size=160&background=142e63&color=d8b13f&bold=true&rounded=true"
+            src={tarunDuttImg}
             alt="Tarun Dutt"
             style={{
               width: "160px",
               height: "160px",
               borderRadius: "50%",
               objectFit: "cover",
+              objectPosition: "top",
               marginBottom: "20px",
               boxShadow: "0 4px 8px rgba(0,0,0,0.1)"
             }}
