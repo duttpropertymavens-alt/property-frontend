@@ -46,43 +46,7 @@ function Agents() {
           flexWrap: "wrap",
         }}
       >
-        {/* AGENT 1 */}
-        <div
-          style={{
-            width: "300px",
-             background: "#f7f6f3",
-            border: "1px solid orange",
-            borderRadius: "15px",
-            padding: "25px",
-            textAlign: "center",
-          }}
-        >
-          <img
-            src={ndSharmaImg}
-            alt=""
-           style={{
-  width: "160px", /* Thoda sa bada kar diya hai acha dikhne ke liye */
-  height: "160px", /* Circle ke liye width aur height hamesha same honi chahiye */
-  borderRadius: "50%",
-  objectFit: "cover",
-  objectPosition: "top", /* Ye line nayi hai! Ye sar ko frame se baahar nahi jaane degi */
-  marginBottom: "20px",
-  boxShadow: "0 4px 8px rgba(0,0,0,0.1)" /* Halka sa 3D shadow premium look ke liye */
-}}
-          />
-
-          <h2 style={{ color: "#d8b13f" }}>Mr. N.D Sharma</h2>
-
-          <p style={{ color: "#142e63", marginTop: "10px" }}>
-            Director, Dutt Property Mavens Pvt. Ltd
-          </p>
-
-          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#142e63" }}>
-           A proud Veteran of the Indian Air Force turned entrepreneur, Mr. N.D. Sharma brings tactical precision, absolute transparency, and an elite work ethic to the real estate industry. Since incorporating Dutt Property Mavens in October 2018, he has guided the company with a service-first mindset, ensuring that clients navigate the property market with total confidence and security.
-          </p>
-        </div>
-
-        {/* AGENT 2 - Tarun Dutt */}
+        {/* CARD 1 - Tarun Dutt (Managing Director) */}
         <div
           style={{
             width: "340px",
@@ -134,11 +98,11 @@ function Agents() {
           </div>
         </div>
 
-        {/* AGENT 3 */}
+        {/* CARD 2 - N.D. Sharma (Director) */}
         <div
           style={{
             width: "300px",
-             background: "#f7f6f3",
+            background: "#f7f6f3",
             border: "1px solid orange",
             borderRadius: "15px",
             padding: "25px",
@@ -146,27 +110,30 @@ function Agents() {
           }}
         >
           <img
-            src="https://randomuser.me/api/portraits/men/75.jpg"
-            alt=""
+            src={ndSharmaImg}
+            alt="N.D. Sharma"
             style={{
-              width: "150px",
-              height: "150px",
+              width: "160px",
+              height: "160px",
               borderRadius: "50%",
               objectFit: "cover",
+              objectPosition: "top",
               marginBottom: "20px",
+              boxShadow: "0 4px 8px rgba(0,0,0,0.1)"
             }}
           />
 
-          <h2 style={{ color: "#d8b13f"  }}>Aman Kapoor</h2>
+          <h2 style={{ color: "#d8b13f" }}>Mr. N.D Sharma</h2>
 
           <p style={{ color: "#142e63", marginTop: "10px" }}>
-            Property Investment Expert
+            Director, Dutt Property Mavens Pvt. Ltd
           </p>
 
           <p style={{ marginTop: "20px", lineHeight: "28px", color: "#142e63" }}>
-            Specialised in investment planning and commercial property deals.
+            A proud Veteran of the Indian Air Force turned entrepreneur, Mr. N.D. Sharma brings tactical precision, absolute transparency, and an elite work ethic to the real estate industry. Since incorporating Dutt Property Mavens in October 2018, he has guided the company with a service-first mindset, ensuring that clients navigate the property market with total confidence and security.
           </p>
         </div>
+
       </div>
     </div>
   );
