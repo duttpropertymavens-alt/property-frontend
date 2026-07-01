@@ -81,11 +81,11 @@ function Agents() {
           </p>
         </div>
 
-        {/* AGENT 2 */}
+        {/* AGENT 2 - Tarun Dutt */}
         <div
           style={{
-            width: "300px",
-             background: "#f7f6f3",
+            width: "340px",
+            background: "#f7f6f3",
             border: "1px solid orange",
             borderRadius: "15px",
             padding: "25px",
@@ -93,27 +93,43 @@ function Agents() {
           }}
         >
           <img
-            src="https://randomuser.me/api/portraits/women/44.jpg"
-            alt=""
+            src="https://ui-avatars.com/api/?name=Tarun+Dutt&size=160&background=142e63&color=d8b13f&bold=true&rounded=true"
+            alt="Tarun Dutt"
             style={{
-              width: "150px",
-              height: "150px",
+              width: "160px",
+              height: "160px",
               borderRadius: "50%",
               objectFit: "cover",
               marginBottom: "20px",
+              boxShadow: "0 4px 8px rgba(0,0,0,0.1)"
             }}
           />
 
-          <h2 style={{ color: "#d8b13f" }}>Priya Verma</h2>
+          <h2 style={{ color: "#d8b13f" }}>Mr. Tarun Dutt</h2>
 
-          <p style={{ color: "#142e63", marginTop: "10px" }}>
-            Real Estate Consultant
+          <p style={{ color: "#142e63", marginTop: "10px", fontWeight: "bold" }}>
+            Managing Director, Dutt Property Mavens Pvt. Ltd.
           </p>
 
-          <p style={{ marginTop: "20px", lineHeight: "28px", color: "#142e63" }}>
-            Helping clients find modern apartments and commercial investment
-            properties.
-          </p>
+          <div style={{ marginTop: "20px", textAlign: "left" }}>
+            <h4 style={{ color: "#d8b13f", marginBottom: "8px" }}>Managing Director's Vision</h4>
+            <p style={{ lineHeight: "28px", color: "#142e63", fontSize: "14px" }}>
+              "To redefine the real estate experience by building trust, creating lasting value, and developing spaces that inspire growth for individuals, businesses, and communities. Our vision is to become one of India's most respected real estate companies, recognized for innovation, transparency, customer satisfaction, and sustainable development."
+            </p>
+
+            <h4 style={{ color: "#d8b13f", margin: "15px 0 8px" }}>Managing Director's Mission</h4>
+            <p style={{ lineHeight: "28px", color: "#142e63", fontSize: "14px" }}>
+              "Our mission is to deliver exceptional real estate solutions through integrity, market expertise, and customer-centric service. We are committed to helping clients make informed investment decisions, developing premium residential and commercial projects, and creating long-term wealth through ethical business practices, quality construction, and continuous innovation."
+            </p>
+
+            <h4 style={{ color: "#d8b13f", margin: "15px 0 8px" }}>Leadership Message</h4>
+            <p style={{ lineHeight: "28px", color: "#142e63", fontSize: "14px", fontStyle: "italic" }}>
+              "Real estate is not just about buying and selling properties—it's about building dreams, creating opportunities, and shaping the future. At Dutt Property Mavens Pvt. Ltd., every client relationship is built on trust, transparency, and a commitment to excellence. Our goal is to deliver value that lasts for generations."
+            </p>
+            <p style={{ color: "#142e63", fontWeight: "bold", marginTop: "10px", fontSize: "14px" }}>
+              — Managing Director<br/>Dutt Property Mavens Pvt. Ltd.
+            </p>
+          </div>
         </div>
 
         {/* AGENT 3 */}
