@@ -1,5 +1,5 @@
 import ndSharmaImg from './ND sharma.jpeg'
-import tarunDuttImg from './Tarun_dutt.jpeg'
+import tarunDuttImg from './tarundutt.jpeg'
 
 function Agents() {
 
