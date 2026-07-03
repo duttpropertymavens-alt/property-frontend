@@ -2,9 +2,7 @@ import ndSharmaImg from './ND sharma.jpeg'
 import tarunDuttImg from './tarundutt.jpeg'
 
 function Agents() {
-    useEffect(()=>{
-      window.scrollTo(0,0);
-    }, []);
+  
 
   return (
     <div
