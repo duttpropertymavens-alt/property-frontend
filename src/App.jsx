@@ -16,6 +16,7 @@ import Office from "./pages/Office";
 import Admin from "./pages/Admin";
 import PropertyDetails from "./pages/PropertyDetails";
 import ForgotPasswordPage from './pages/ForgetPassword';
+import Construction from './pages/Construction';
 
 
 function App (){
@@ -43,6 +44,7 @@ function App (){
 <Route path="/admin" element={<Admin />} />
 <Route path="/property/:id" element={<PropertyDetails />} />
  <Route path="/forget-password" element={<ForgotPasswordPage />} />
+ <Route path="/construction" element={<Construction />} />
 
 
   
