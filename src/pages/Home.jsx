@@ -202,13 +202,9 @@ useEffect(() => {
         support.
       </p>
 
-      <Link to="/services">
+      <Link to="/land-ventures">
   <button>Read More</button>
 </Link>
-    </div>
-
-    <div className="service-card">
-      <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1200&auto=format&fit=crop" />
 
       <h3>Documentation Verification</h3>
 
