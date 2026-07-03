@@ -73,7 +73,7 @@ useEffect(() => {
 
       {/* LEFT */}
       <div className="hero-left">
-        <h1>Easiest way to get your <span className="dream">dream</span> <span className="hero-home">home</span></h1>
+        <h1>Easiest way to get your <span className="dream">dream</span> <span className="hero-home">property</span></h1>
        <p>Find best properties with us. Buy, sell and invest smartly.</p>
         <div className="hero-buttons">
       <Link to="/contact">
