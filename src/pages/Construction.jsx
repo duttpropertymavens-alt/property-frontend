@@ -132,7 +132,7 @@ function Construction() {
       </div>
 
       {/* CTA BUTTON */}
-      <div style={{ textAlign: "center", marginTop: "60px" }}>
+      <div style={{ textAlign: "center", marginTop: "60px", display: "flex", flexWrap: "wrap", gap: "15px", justifyContent: "center" }}>
         <a href="https://wa.me/919034021217" target="_blank" rel="noreferrer">
           <button
             style={{
@@ -144,7 +144,6 @@ function Construction() {
               fontWeight: "bold",
               color: "#142e63",
               cursor: "pointer",
-              marginRight: "20px",
             }}
           >
             Contact on WhatsApp
